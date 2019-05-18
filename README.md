@@ -1,7 +1,7 @@
 # Overview
 This project uses a 2 dimensional particle filter in C++ to localize a vehicle that has been kidnapped and transported to a new location. It has a map of this location, a (noisy) GPS estimate of its initial location, and lots of (noisy) sensor and control data. At each time step, the filter will use the map, observation and control data to estimate the location of the vehicle. 
 
-![](video/Kidnapped Vehicle.gif)
+![ANIMATION](video/Kidnapped Vehicle.gif)
 
 ## Running the Code
 This project involves the Term 2 Simulator  provided by Udacity which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases)
